@@ -1,0 +1,37 @@
+*,html,body
+{
+margin: 10px;
+padding: 0;
+}
+header
+{
+    background-color: skyblue;
+    line-height: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#title
+{
+ text-align: center;
+ font-weight: bold;
+ font-size: 40px;
+}
+.logo
+{
+    position:absolute;
+    left: 180px;
+}
+.form-group
+{
+    text-align: center;
+}
+.form
+{
+    text-align: center;
+}
+.panel{
+    width: 700px;
+    margin-left: 200px;
+    text-align: center;
+}
+

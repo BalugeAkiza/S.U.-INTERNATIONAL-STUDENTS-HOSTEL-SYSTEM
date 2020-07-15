@@ -1,0 +1,37 @@
+*,html,body
+{
+margin: 10px;
+padding: 0;
+}header
+{
+    background-color: skyblue;
+    line-height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#title
+{
+ text-align: center;
+ font-weight: bold;
+ font-size: 40px;
+}
+.logo
+{
+    position:absolute;
+    left: 40px;
+}
+.row {
+    display: flex;
+    height: 650px;;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }

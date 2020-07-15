@@ -1,0 +1,45 @@
+*,html,body
+{
+margin: 10px;
+padding: 0;
+}
+header
+{
+    background-color: skyblue;
+    line-height: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#title
+{
+ text-align: center;
+ font-weight: bold;
+ font-size: 40px;
+}
+.logo
+{
+    position:absolute;
+    left: 180px;
+}
+.panel{
+    width: 700px;
+    margin-left: 200px;
+    text-align: center;
+}
+.panel-body label {
+    width: 200px;
+    margin-left: 10px;
+}
+.panel-body input {
+    width: 200px;
+    margin-left: 05px;
+}
+#show_pass {
+    width: 200px;
+    margin-left: 2px;
+}
+
+.panel-body select {
+    width: 200px;
+    margin-left: 8px;
+}
